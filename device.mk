@@ -50,8 +50,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.universal7580 \
-    Snap
+    camera.universal7580 
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -59,8 +58,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/gps.xml:system/etc/gps.xml
 
 # hardware/samsung/AdvancedDisplay (MDNIE)
-PRODUCT_PACKAGES += \
-    AdvancedDisplay
+#PRODUCT_PACKAGES += \
+#    AdvancedDisplay
 
 # Graphics
 # Device uses high-density artwork where available
@@ -87,8 +86,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
-    NfcNci \
-    Tag \
     com.android.nfc_extras \
     android.hardware.nfc@1.0-impl
 
